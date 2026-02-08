@@ -1,0 +1,26 @@
+*.pyc
+resources/
+resources.tar.gz
+models/
+models.tar.gz
+extra-models/
+__pycache__/
+training/models/
+
+# local datasets
+/data/
+
+# local artifacts (do not commit)
+checkpoints/
+*.log
+
+# python cache
+__pycache__/
+*.pyc
+
+# local datasets & artifacts
+/data/
+/checkpoints/
+*.log
+__pycache__/
+*.pyc
